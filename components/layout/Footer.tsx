@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
-  return <footer className="p-4 bg-gray-800 text-white">Footer</footer>;
+  return (
+    <footer className="bg-gray-800 text-white p-4">
+      <p>&copy; 2024 My Project</p>
+    </footer>
+  );
 };
 
 export default Footer;
