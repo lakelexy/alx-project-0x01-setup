@@ -1,9 +1,7 @@
-import React from "react";
-
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4">
-      <p>&copy; 2024 My Project</p>
+    <footer className="footer">
+      <p>Footer Content</p>
     </footer>
   );
 };
